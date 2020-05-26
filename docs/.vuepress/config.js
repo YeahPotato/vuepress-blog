@@ -1,6 +1,7 @@
 module.exports = {
   title: "Joke's front",
   description: "description",
+  base: "/docs/.vuepress/dist",
   head: [
     ["link", { rel: "icon", href: "/img/logo.ico" }],
     ["link", { rel: "manifest", href: "/manifest.json" }],
